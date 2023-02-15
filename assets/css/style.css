@@ -138,6 +138,7 @@ figcaption {
     gap: 1vh;
     width: 45%;
     padding: 30vh 0 5vh;
+    border-radius: 10px;
 }
 
 .card--standard-room {
@@ -160,6 +161,14 @@ figcaption {
 
 .cta--slim {
     width: 50%;
+}
+
+.booknow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    padding: 5vh 0 10vh;
 }
 
 /*######################################
