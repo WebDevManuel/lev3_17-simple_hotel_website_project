@@ -71,7 +71,12 @@ figcaption {
     padding: 0 0.3em;
 }
 
+.nav__link:hover {
+    text-decoration: underline;
+}
+
 .hero {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,6 +103,11 @@ figcaption {
     padding: 15px 0;
     border-radius: 7px;
     text-align: center;
+}
+
+.cta:hover {
+    background-color: var(--main-font-color);
+    color: var(--background-color);
 }
 
 /*######################################
@@ -174,3 +184,57 @@ figcaption {
 /*######################################
                 FOOTER
 ######################################*/
+.footer p,
+.footer a,
+.form__label {
+    color: var(--main-font-color_light);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 7vh 5% 15vh;
+    background-color: black;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__info__img {
+    width: 50%;
+    padding: 0 0 4vh;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.form__label {
+    font-family: var(--main-font);
+    font-size: 1.2em;
+    padding: 0 0 1vh;
+}
+
+.form__input {
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px solid black;
+}
+
+.form__cta {
+    width: 100%;
+    font-weight: 600;
+    margin: 1vh 0 0;
+    border: 0px solid black;
+}
