@@ -238,3 +238,40 @@ figcaption {
     margin: 1vh 0 0;
     border: 0px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 2vh auto;
+    }
+
+    .hero {
+        padding: 0 0 1.5vh;
+    }
+
+    .hero h1 {
+        padding: 0 30%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 7vh 5% 7vh;
+    }
+
+    .footer__info {
+        padding: 0 0 2vh;
+        text-align: center;
+    }
+
+    .footer__info__img {
+        width: 100%;
+        padding: 0 0 0;
+    }
+
+    .footer__nav {
+        align-items: center;
+        padding: 0 0 2vh;
+    }
+}
