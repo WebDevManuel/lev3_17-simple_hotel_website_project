@@ -36,7 +36,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-size: 2em;
     font-weight: 500;
     color: var(--main-font-color);
@@ -53,14 +53,14 @@ figcaption {
 /*######################################
                 HEADER
 ######################################*/
-.header {
-    margin: 5vh 0 0;
-    text-align: center;
+.logo {
+    display: block;
+    margin: 5vh auto 0;
 }
 
 .nav {
     width: 50%;
-    margin: 5vh auto 8vh;
+    margin: 5vh auto;
     display: flex;
     justify-content: space-between;
 }
@@ -75,7 +75,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 3vh;
     background-image: url("../img/hero_image.png");
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ figcaption {
     padding: 20vh 0;
 }
 
-.hero__h2--light{
+.hero__h2--light {
     color: var(--main-font-color_light);
     font-size: 1em;
 }
@@ -97,21 +97,70 @@ figcaption {
     width: 25%;
     padding: 15px 0;
     border-radius: 7px;
+    text-align: center;
 }
 
 /*######################################
                 MAIN
 ######################################*/
-.headline{
+.headline {
     text-align: center;
-    margin: 4vh 0 0vh;
-}
-.icon-list{
-    padding: 3vh 0 0;
-    display: flex;
-    justify-content: space-evenly;
+    margin: 5vh 0 0vh;
 }
 
+.icon-list {
+    padding: 2vh 0 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-list__figcaption {
+    text-align: center;
+}
+
+.showroom {
+    padding: 2vh 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vh 5%;
+}
+
+.card {
+    background-image: url("../img/standard_twin_room.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    width: 45%;
+    padding: 30vh 0 5vh;
+}
+
+.card--standard-room {
+    background-image: url("../img/standard_room.png");
+}
+
+.card--view-room {
+    background-image: url("../img/standard_view_room.png");
+}
+
+.card--deluxe-room {
+    background-image: url("../img/deluxe_room.png");
+}
+
+.card__title {
+    color: var(--main-font-color_light);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.cta--slim {
+    width: 50%;
+}
 
 /*######################################
                 FOOTER
